@@ -62,7 +62,7 @@ class MainView: UIView {
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            averageSpeedLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 40),
+            averageSpeedLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 70),
             averageSpeedLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10),
             distanceLabel.topAnchor.constraint(equalTo: self.averageSpeedLabel.bottomAnchor, constant: 20),
             distanceLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10),

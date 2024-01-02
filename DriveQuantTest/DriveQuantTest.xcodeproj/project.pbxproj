@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0977E2CFEEE07D6673655B9F /* Pods_DriveQuantTest_DriveQuantTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D0B6700844637A067974DB /* Pods_DriveQuantTest_DriveQuantTestUITests.framework */; };
 		3F6BA62C2B3DC46A006EAE71 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BA62B2B3DC46A006EAE71 /* MainView.swift */; };
 		3F6BA6552B3F3820006EAE71 /* SpeedCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6BA6542B3F3820006EAE71 /* SpeedCalculator.framework */; };
 		3F6BA6562B3F3820006EAE71 /* SpeedCalculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6BA6542B3F3820006EAE71 /* SpeedCalculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -20,6 +21,8 @@
 		3F9A42C62B3B0C15003DD57E /* DriveQuantTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A42C52B3B0C15003DD57E /* DriveQuantTestTests.swift */; };
 		3F9A42D02B3B0C15003DD57E /* DriveQuantTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A42CF2B3B0C15003DD57E /* DriveQuantTestUITests.swift */; };
 		3F9A42D22B3B0C15003DD57E /* DriveQuantTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A42D12B3B0C15003DD57E /* DriveQuantTestUITestsLaunchTests.swift */; };
+		44B6046308C279A4491619CE /* Pods_DriveQuantTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9013B028EEEDB6A636E736AB /* Pods_DriveQuantTest.framework */; };
+		EB148DFDA9510F87F61FEA8A /* Pods_DriveQuantTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7ACF2465D073AFAF66825 /* Pods_DriveQuantTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38A757773F646F74048F2489 /* Pods-DriveQuantTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTest.debug.xcconfig"; path = "Target Support Files/Pods-DriveQuantTest/Pods-DriveQuantTest.debug.xcconfig"; sourceTree = "<group>"; };
 		3F6BA62B2B3DC46A006EAE71 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3F6BA6542B3F3820006EAE71 /* SpeedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SpeedCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6BA6582B3F5BF4006EAE71 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -70,6 +74,14 @@
 		3F9A42CB2B3B0C15003DD57E /* DriveQuantTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveQuantTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9A42CF2B3B0C15003DD57E /* DriveQuantTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveQuantTestUITests.swift; sourceTree = "<group>"; };
 		3F9A42D12B3B0C15003DD57E /* DriveQuantTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveQuantTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E54C5F4AC755EFB745D5A27 /* Pods-DriveQuantTest-DriveQuantTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTest-DriveQuantTestUITests.release.xcconfig"; path = "Target Support Files/Pods-DriveQuantTest-DriveQuantTestUITests/Pods-DriveQuantTest-DriveQuantTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86C1B1BA2FDB05444A2F26E2 /* Pods-DriveQuantTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTest.release.xcconfig"; path = "Target Support Files/Pods-DriveQuantTest/Pods-DriveQuantTest.release.xcconfig"; sourceTree = "<group>"; };
+		9013B028EEEDB6A636E736AB /* Pods_DriveQuantTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveQuantTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D0B6700844637A067974DB /* Pods_DriveQuantTest_DriveQuantTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveQuantTest_DriveQuantTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8393AA1DA340415884048 /* Pods-DriveQuantTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTestTests.release.xcconfig"; path = "Target Support Files/Pods-DriveQuantTestTests/Pods-DriveQuantTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBD346A72B991987F7A6E13A /* Pods-DriveQuantTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTestTests.debug.xcconfig"; path = "Target Support Files/Pods-DriveQuantTestTests/Pods-DriveQuantTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A296BB97A02DB00826A112 /* Pods-DriveQuantTest-DriveQuantTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveQuantTest-DriveQuantTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-DriveQuantTest-DriveQuantTestUITests/Pods-DriveQuantTest-DriveQuantTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA7ACF2465D073AFAF66825 /* Pods_DriveQuantTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveQuantTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6BA6552B3F3820006EAE71 /* SpeedCalculator.framework in Frameworks */,
+				44B6046308C279A4491619CE /* Pods_DriveQuantTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB148DFDA9510F87F61FEA8A /* Pods_DriveQuantTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0977E2CFEEE07D6673655B9F /* Pods_DriveQuantTest_DriveQuantTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				3F6BA6542B3F3820006EAE71 /* SpeedCalculator.framework */,
+				9013B028EEEDB6A636E736AB /* Pods_DriveQuantTest.framework */,
+				B7D0B6700844637A067974DB /* Pods_DriveQuantTest_DriveQuantTestUITests.framework */,
+				FFA7ACF2465D073AFAF66825 /* Pods_DriveQuantTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +182,12 @@
 		F0D2B767DD1B38580E052A8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				38A757773F646F74048F2489 /* Pods-DriveQuantTest.debug.xcconfig */,
+				86C1B1BA2FDB05444A2F26E2 /* Pods-DriveQuantTest.release.xcconfig */,
+				F8A296BB97A02DB00826A112 /* Pods-DriveQuantTest-DriveQuantTestUITests.debug.xcconfig */,
+				6E54C5F4AC755EFB745D5A27 /* Pods-DriveQuantTest-DriveQuantTestUITests.release.xcconfig */,
+				DBD346A72B991987F7A6E13A /* Pods-DriveQuantTestTests.debug.xcconfig */,
+				CDA8393AA1DA340415884048 /* Pods-DriveQuantTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,10 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9A42D52B3B0C15003DD57E /* Build configuration list for PBXNativeTarget "DriveQuantTest" */;
 			buildPhases = (
+				76DB5E87C9E1F4FC2956A5EB /* [CP] Check Pods Manifest.lock */,
 				3F9A42A72B3B0C13003DD57E /* Sources */,
 				3F9A42A82B3B0C13003DD57E /* Frameworks */,
 				3F9A42A92B3B0C13003DD57E /* Resources */,
 				3F6BA6572B3F3820006EAE71 /* Embed Frameworks */,
+				A06486AE7C3EDF1009D593FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9A42D82B3B0C15003DD57E /* Build configuration list for PBXNativeTarget "DriveQuantTestTests" */;
 			buildPhases = (
+				F0847C82AFC642722A5962AB /* [CP] Check Pods Manifest.lock */,
 				3F9A42BD2B3B0C15003DD57E /* Sources */,
 				3F9A42BE2B3B0C15003DD57E /* Frameworks */,
 				3F9A42BF2B3B0C15003DD57E /* Resources */,
@@ -211,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9A42DB2B3B0C15003DD57E /* Build configuration list for PBXNativeTarget "DriveQuantTestUITests" */;
 			buildPhases = (
+				E8FF9318686BED5B67A081B0 /* [CP] Check Pods Manifest.lock */,
 				3F9A42C72B3B0C15003DD57E /* Sources */,
 				3F9A42C82B3B0C15003DD57E /* Frameworks */,
 				3F9A42C92B3B0C15003DD57E /* Resources */,
+				04B936754F79E47A7336EB46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +323,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B936754F79E47A7336EB46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest-DriveQuantTestUITests/Pods-DriveQuantTest-DriveQuantTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest-DriveQuantTestUITests/Pods-DriveQuantTest-DriveQuantTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest-DriveQuantTestUITests/Pods-DriveQuantTest-DriveQuantTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76DB5E87C9E1F4FC2956A5EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveQuantTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06486AE7C3EDF1009D593FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest/Pods-DriveQuantTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest/Pods-DriveQuantTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveQuantTest/Pods-DriveQuantTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FF9318686BED5B67A081B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveQuantTest-DriveQuantTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0847C82AFC642722A5962AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveQuantTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F9A42A72B3B0C13003DD57E /* Sources */ = {
@@ -481,6 +613,7 @@
 		};
 		3F9A42D62B3B0C15003DD57E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A757773F646F74048F2489 /* Pods-DriveQuantTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -517,6 +650,7 @@
 		};
 		3F9A42D72B3B0C15003DD57E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C1B1BA2FDB05444A2F26E2 /* Pods-DriveQuantTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -553,6 +687,7 @@
 		};
 		3F9A42D92B3B0C15003DD57E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD346A72B991987F7A6E13A /* Pods-DriveQuantTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +708,7 @@
 		};
 		3F9A42DA2B3B0C15003DD57E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8393AA1DA340415884048 /* Pods-DriveQuantTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +729,7 @@
 		};
 		3F9A42DC2B3B0C15003DD57E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A296BB97A02DB00826A112 /* Pods-DriveQuantTest-DriveQuantTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +748,7 @@
 		};
 		3F9A42DD2B3B0C15003DD57E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E54C5F4AC755EFB745D5A27 /* Pods-DriveQuantTest-DriveQuantTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
