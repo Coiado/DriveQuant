@@ -98,8 +98,7 @@ extension MainViewModel: CLLocationManagerDelegate {
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         let status = DKDiagnosisHelper.shared.getPermissionStatus(.location)
-        if status == .valid {
-            beginLocationUpdates()
-        }
+        
+        beginLocationUpdates()
     }
 }
